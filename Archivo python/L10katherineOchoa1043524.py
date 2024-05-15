@@ -1,3 +1,5 @@
+#KatherineOchoa1043524
+
 print("semana No. 10: ejercicio 1")
 
 mesEntrada = int(input("ingrese un numero del 1-12"))
