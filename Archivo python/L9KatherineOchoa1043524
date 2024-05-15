@@ -1,0 +1,72 @@
+print("ejercicio 1")
+
+n1 = int(input("ingrese el primer numero: "))
+n2 = int(input("ingrese el primer numero: "))
+
+divisionReal = n1 / n2 
+divEntera = n1 // n2
+divModular = n1 % n2
+suma = n1 + n2
+resta = n1 - n2
+multiplicacion = n1 * n2
+
+print(n1,"/", n2,"=",divisionReal)
+print(n1,"//", n2,"=",divEntera)
+print(n1,"%", n2,"=",divModular)
+print(n1,"+", n2,"=",suma)
+print(n1,"-", n2,"=",resta)
+print(n1,"*", n2,"=",multiplicacion)
+
+print("Ejercicio 2: operaciones booleanas")
+
+igualidad = n1 == n2
+diferentes = n1 != n2
+mayor = n1 > n2
+menor = n1 < n2
+
+print(n1, "==",n2, "=",igualidad)
+print(n1, "!=",n2, "=", diferentes)
+print(n1, ">", n2, "=", mayor)
+print(n1, "<", n2, "=", menor)
+
+print("Ejercicio 3: jerarquia de operaciones")
+
+a = int(input("ingrese el primer numero: "))
+b = int(input("ingrese el segundo numero: "))
+c = int(input("ingrese el tercer numero: "))
+
+print("ii." , a*(b+c))
+print("i." , a*b+c)
+print("iii." , a/(b+c))
+print("iv." , (3*a+2*b)/c**2)
+
+print("actividad 3, ejercicio 1:")
+metros1=int(input("ingrese metros" ))
+km =int(input("ingrese km"))
+mi =int(input("ingrese mi"))
+ft =int(input("ingrese ft"))
+pulgadas =int(input("ingrese in"))
+
+km = metros1 / 1000
+mi = km * 1.69
+metros1 = ft * 3.28
+ft = pulgadas * 12
+
+print("km:", km)
+print("mi", mi )
+print("metros1", metros1)
+print("ft", ft)
+print("pulgadas", pulgadas)
+
+print("actividad 3, ejercico 2:")
+metros2 = int(input("ingrese metros"))
+yardas = int(input("ingrese yardas"))
+ft = int(input("ingrese ft"))
+
+yardas = metros2 // 0.9144
+modyardas = metros2 % 0.9144
+ft = modyardas // 0.333333
+
+print ("yardas: ", yardas, "ft: ", ft)
+
+       
